@@ -2860,3 +2860,10 @@ export const minisData: Mini[] = [
 
 // Add default export
 export default minisData;
+
+// Placeholder for Python scraper implementation
+// This script will extract data for all 92 Warcraft Rumble minis from Noff.gg
+// and update the minisData.ts file with the missing entries.
+
+// Placeholder for missing image detection and placeholder generation
+// This script will compare the `image` field in minisData.ts with the actual files in the `/assets/images/minis/` directory.
