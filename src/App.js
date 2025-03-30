@@ -5,29 +5,35 @@ import ErrorBoundary from './components/ErrorBoundary';
 import { LoadingProvider } from './context/LoadingContext';
 import { ContentProvider } from './context/ContentContext';
 
-// Placeholder components for pages
-const Home = () => <div>Home Page</div>;
-const Minis = () => <div>Minis Page</div>;
-const MiniDetail = () => <div>Mini Detail Page</div>;
-const ArmyBuilder = () => <div>Army Builder Page</div>;
-const Mechanics = () => <div>Mechanics Page</div>;
-const Currency = () => <div>Currency Page</div>;
-const NotFound = () => <div>404 Not Found</div>;
+// Lazy-loaded components for pages
+const Home = React.lazy(() => import('./pages/Home'));
+const Minis = React.lazy(() => import('./pages/Minis'));
+const MiniDetail = React.lazy(() => import('./pages/MiniDetail'));
+const ArmyBuilder = React.lazy(() => import('./pages/ArmyBuilder'));
+const Mechanics = React.lazy(() => import('./pages/Mechanics'));
+const Currency = React.lazy(() => import('./pages/Currency'));
+const NotFound = React.lazy(() => import('./pages/NotFound'));
 
 function App() {
   return (
     <ErrorBoundary>
       <LoadingProvider>
         <ContentProvider>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/minis" element={<Minis />} />
-            <Route path="/minis/:miniId" element={<MiniDetail />} />
-            <Route path="/army-builder" element={<ArmyBuilder />} />
-            <Route path="/mechanics" element={<Mechanics />} />
-            <Route path="/currency" element={<Currency />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
+          <Router>
+            <Layout>
+              <React.Suspense fallback={<div>Loading...</div>}>
+                <Routes>
+                  <Route path="/" element={<Home />} />
+                  <Route path="/minis" element={<Minis />} />
+                  <Route path="/minis/:miniId" element={<MiniDetail />} />
+                  <Route path="/army-builder" element={<ArmyBuilder />} />
+                  <Route path="/mechanics" element={<Mechanics />} />
+                  <Route path="/currency" element={<Currency />} />
+                  <Route path="*" element={<NotFound />} />
+                </Routes>
+              </React.Suspense>
+            </Layout>
+          </Router>
         </ContentProvider>
       </LoadingProvider>
     </ErrorBoundary>
