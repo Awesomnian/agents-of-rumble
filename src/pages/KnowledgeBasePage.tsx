@@ -28,10 +28,10 @@ import FilterListIcon from '@mui/icons-material/FilterList';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import minisData from '../data/db/minisData';
-import { Mini } from '../types';
+import { Mini as ImportedMini } from '../types';
 
-// Ensure the Mini type includes a stats property
-type Mini = {
+// Rename the local Mini type to avoid conflicts
+type LocalMini = {
   id: string;
   name: string;
   family: string;
@@ -131,19 +131,19 @@ const KnowledgeBasePage: React.FC = () => {
   const [roleFilter, setRoleFilter] = useState('');
   const [costFilter, setCostFilter] = useState<number[]>([0, 10]);
   const [selectedMini, setSelectedMini] = useState<string | null>(null);
-  const [selectedMiniData, setSelectedMiniData] = useState<Mini | null>(null);
+  const [selectedMiniData, setSelectedMiniData] = useState<LocalMini | null>(null);
   const [tabValue, setTabValue] = useState(0);
   const [favorites, setFavorites] = useState<string[]>([]);
-  const [filteredMinis, setFilteredMinis] = useState<Mini[]>([]);
+  const [filteredMinis, setFilteredMinis] = useState<LocalMini[]>([]);
 
   // Initialize filtered minis
   useEffect(() => {
-    setFilteredMinis(minisData);
+    setFilteredMinis(minisData as LocalMini[]);
   }, []);
 
   // Update filtered minis when filters change
   useEffect(() => {
-    let filtered = minisData;
+    let filtered = minisData as LocalMini[];
     
     // Apply search filter
     if (searchTerm) {
@@ -184,7 +184,7 @@ const KnowledgeBasePage: React.FC = () => {
   // Update selected mini data when selected mini changes
   useEffect(() => {
     if (selectedMini) {
-      const miniData = minisData.find(mini => mini.name === selectedMini);
+      const miniData = minisData.find(mini => mini.name === selectedMini) as LocalMini;
       if (miniData) {
         setSelectedMiniData(miniData);
       }
