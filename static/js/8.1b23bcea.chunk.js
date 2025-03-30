@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{18:function(n,e,a){"use strict";a.r(e);var i=a(0),s=a.n(i);e.default=(()=>s.a.createElement("div",null,"Minis Page"))}}]);
+//# sourceMappingURL=8.1b23bcea.chunk.js.map

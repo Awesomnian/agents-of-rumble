@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{21:function(e,n,a){"use strict";a.r(n);var c=a(0),i=a.n(c);n.default=(()=>i.a.createElement("div",null,"Mechanics Page"))}}]);
+//# sourceMappingURL=6.549ac073.chunk.js.map

@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{22:function(e,n,a){"use strict";a.r(n);var c=a(0),r=a.n(c);n.default=(()=>r.a.createElement("div",null,"Currency Page"))}}]);
+//# sourceMappingURL=4.1f9db3a1.chunk.js.map
