@@ -30,6 +30,23 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import minisData from '../data/db/minisData';
 import { Mini } from '../types';
 
+// Ensure the Mini type includes a stats property
+type Mini = {
+  id: string;
+  name: string;
+  family: string;
+  rarity: string;
+  role: string;
+  cost: number;
+  stats: {
+    health: number;
+    damage: number;
+    speed: number;
+  };
+  abilities: { name: string; description: string }[];
+  talents: { name: string; description: string }[];
+};
+
 // Styled components
 const KnowledgeBaseContainer = styled('div')(({ theme }) => ({
   padding: theme.spacing(3),
@@ -444,10 +461,10 @@ const KnowledgeBasePage: React.FC = () => {
                 <Box sx={{ display: 'flex', alignItems: 'flex-start', mb: 4 }}>
                   <CardMedia
                     component="img"
-                    sx={{ 
-                      width: 120, 
-                      height: 120, 
-                      mr: 3, 
+                    sx={{
+                      width: 120,
+                      height: 120,
+                      mr: 3,
                       backgroundColor: 
                         selectedMiniData.rarity === 'Common' ? '#6c757d' :
                         selectedMiniData.rarity === 'Rare' ? '#0d6efd' :
@@ -457,5 +474,104 @@ const KnowledgeBasePage: React.FC = () => {
                       p: 1,
                       borderRadius: 1
                     }}
-                    image={`/assets/image
-(Content truncated due to size limit. Use line ranges to read in chunks)
+                    image={`/assets/images/minis/${selectedMiniData.id.toLowerCase()}.png`}
+                    alt={selectedMiniData.name}
+                  />
+                  <Box>
+                    <Typography variant="h4" component="h2" gutterBottom>
+                      {selectedMiniData.name}
+                    </Typography>
+                    <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
+                      <Chip 
+                        label={selectedMiniData.family} 
+                        size="small" 
+                        sx={{ mr: 1, backgroundColor: theme.palette.primary.dark }} 
+                      />
+                      <Chip 
+                        label={selectedMiniData.role} 
+                        size="small" 
+                        sx={{ backgroundColor: theme.palette.secondary.dark }} 
+                      />
+                    </Box>
+                    <Typography variant="body1" color="text.secondary">
+                      Cost: {selectedMiniData.cost} • {selectedMiniData.rarity}
+                    </Typography>
+                  </Box>
+                </Box>
+                <Tabs
+                  value={tabValue}
+                  onChange={handleTabChange}
+                  aria-label="mini details tabs"
+                  textColor="primary"
+                  indicatorColor="primary"
+                  variant="scrollable"
+                  scrollButtons="auto"
+                >
+                  <Tab label="Stats" />
+                  <Tab label="Abilities" />
+                  <Tab label="Talents" />
+                </Tabs>
+                <CustomTabPanel value={tabValue} index={0}>
+                  <Typography variant="h6" gutterBottom>
+                    Stats
+                  </Typography>
+                  <Divider sx={{ mb: 2 }} />
+                  {selectedMiniData?.stats && (
+                    <>
+                      <Box sx={{ mb: 2 }}>
+                        <Typography variant="body2" color="text.secondary">
+                          Health: {selectedMiniData.stats.health}
+                        </Typography>
+                        <StatBar value={selectedMiniData.stats.health} maxValue={100} />
+                      </Box>
+                      <Box sx={{ mb: 2 }}>
+                        <Typography variant="body2" color="text.secondary">
+                          Damage: {selectedMiniData.stats.damage}
+                        </Typography>
+                        <StatBar value={selectedMiniData.stats.damage} maxValue={100} />
+                      </Box>
+                      <Box sx={{ mb: 2 }}>
+                        <Typography variant="body2" color="text.secondary">
+                          Speed: {selectedMiniData.stats.speed}
+                        </Typography>
+                        <StatBar value={selectedMiniData.stats.speed} maxValue={100} />
+                      </Box>
+                    </>
+                  )}
+                </CustomTabPanel>
+                <CustomTabPanel value={tabValue} index={1}>
+                  <Typography variant="h6" gutterBottom>
+                    Abilities
+                  </Typography>
+                  <Divider sx={{ mb: 2 }} />
+                  {selectedMiniData.abilities.map((ability, index) => (
+                    <Box key={index} sx={{ mb: 2 }}>
+                      <Typography variant="body2" color="text.secondary">
+                        {ability.name}: {ability.description}
+                      </Typography>
+                    </Box>
+                  ))}
+                </CustomTabPanel>
+                <CustomTabPanel value={tabValue} index={2}>
+                  <Typography variant="h6" gutterBottom>
+                    Talents
+                  </Typography>
+                  <Divider sx={{ mb: 2 }} />
+                  {selectedMiniData.talents.map((talent, index) => (
+                    <Box key={index} sx={{ mb: 2 }}>
+                      <Typography variant="body2" color="text.secondary">
+                        {talent.name}: {talent.description}
+                      </Typography>
+                    </Box>
+                  ))}
+                </CustomTabPanel>
+              </Paper>
+            </Grid>
+          )}
+        </Grid>
+      </Container>
+    </KnowledgeBaseContainer>
+  );
+};
+
+export default KnowledgeBasePage;
