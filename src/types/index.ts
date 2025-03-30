@@ -31,6 +31,11 @@ export interface Mini {
   description: string;
   abilities: Ability[];
   talents: Talent[];
+  stats: {
+    health: number;
+    damage: number;
+    speed: number;
+  };
   strategyTips: string[];
   strongAgainst: string[];
   weakAgainst: string[];

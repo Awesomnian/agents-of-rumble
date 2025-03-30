@@ -28,7 +28,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/dire_batlings.png"
+    "image": "/assets/images/minis/dire_batlings.png",
+    "stats": {
+      "health": 50,
+      "damage": 30,
+      "speed": 20
+    }
   },
   {
     "id": "moonkin",
@@ -54,7 +59,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/moonkin.png"
+    "image": "/assets/images/minis/moonkin.png",
+    "stats": {
+      "health": 60,
+      "damage": 40,
+      "speed": 25
+    }
   },
   {
     "id": "warsong_raider",
@@ -80,7 +90,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/warsong_raider.png"
+    "image": "/assets/images/minis/warsong_raider.png",
+    "stats": {
+      "health": 70,
+      "damage": 50,
+      "speed": 15
+    }
   },
   {
     "id": "murloc_tidehunters",
@@ -106,7 +121,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/murloc_tidehunters.png"
+    "image": "/assets/images/minis/murloc_tidehunters.png",
+    "stats": {
+      "health": 40,
+      "damage": 20,
+      "speed": 30
+    }
   },
   {
     "id": "cairne_bloodhoof",
@@ -132,7 +152,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/cairne_bloodhoof.png"
+    "image": "/assets/images/minis/cairne_bloodhoof.png",
+    "stats": {
+      "health": 80,
+      "damage": 60,
+      "speed": 10
+    }
   },
   {
     "id": "molten_giant",
@@ -158,7 +183,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/molten_giant.png"
+    "image": "/assets/images/minis/molten_giant.png",
+    "stats": {
+      "health": 90,
+      "damage": 70,
+      "speed": 5
+    }
   },
   {
     "id": "chimaera",
@@ -184,7 +214,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/chimaera.png"
+    "image": "/assets/images/minis/chimaera.png",
+    "stats": {
+      "health": 75,
+      "damage": 45,
+      "speed": 25
+    }
   },
   {
     "id": "grommash_hellscream",
@@ -210,7 +245,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/grommash_hellscream.png"
+    "image": "/assets/images/minis/grommash_hellscream.png",
+    "stats": {
+      "health": 85,
+      "damage": 55,
+      "speed": 20
+    }
   },
   {
     "id": "prowler",
@@ -236,7 +276,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/prowler.png"
+    "image": "/assets/images/minis/prowler.png",
+    "stats": {
+      "health": 65,
+      "damage": 35,
+      "speed": 30
+    }
   },
   {
     "id": "whelp_eggs",
@@ -262,7 +307,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/whelp_eggs.png"
+    "image": "/assets/images/minis/whelp_eggs.png",
+    "stats": {
+      "health": 55,
+      "damage": 25,
+      "speed": 35
+    }
   },
   {
     "id": "baron_rivendare",
@@ -288,7 +338,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/baron_rivendare.png"
+    "image": "/assets/images/minis/baron_rivendare.png",
+    "stats": {
+      "health": 80,
+      "damage": 50,
+      "speed": 15
+    }
   },
   {
     "id": "skeletons",
@@ -314,7 +369,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/skeletons.png"
+    "image": "/assets/images/minis/skeletons.png",
+    "stats": {
+      "health": 45,
+      "damage": 20,
+      "speed": 25
+    }
   },
   {
     "id": "holy_nova",
@@ -340,7 +400,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/holy_nova.png"
+    "image": "/assets/images/minis/holy_nova.png",
+    "stats": {
+      "health": 70,
+      "damage": 40,
+      "speed": 10
+    }
   },
   {
     "id": "spiderlings",
@@ -366,7 +431,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/spiderlings.png"
+    "image": "/assets/images/minis/spiderlings.png",
+    "stats": {
+      "health": 50,
+      "damage": 30,
+      "speed": 20
+    }
   },
   {
     "id": "harpies",
@@ -392,7 +462,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/harpies.png"
+    "image": "/assets/images/minis/harpies.png",
+    "stats": {
+      "health": 60,
+      "damage": 40,
+      "speed": 25
+    }
   },
   {
     "id": "s.a.f.e._pilot",
@@ -418,7 +493,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/s.a.f.e._pilot.png"
+    "image": "/assets/images/minis/s.a.f.e._pilot.png",
+    "stats": {
+      "health": 55,
+      "damage": 35,
+      "speed": 15
+    }
   },
   {
     "id": "quilboar",
@@ -444,7 +524,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/quilboar.png"
+    "image": "/assets/images/minis/quilboar.png",
+    "stats": {
+      "health": 45,
+      "damage": 25,
+      "speed": 20
+    }
   },
   {
     "id": "charlga_razorflank",
@@ -470,7 +555,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/charlga_razorflank.png"
+    "image": "/assets/images/minis/charlga_razorflank.png",
+    "stats": {
+      "health": 50,
+      "damage": 30,
+      "speed": 15
+    }
   },
   {
     "id": "gargoyle",
@@ -496,7 +586,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/gargoyle.png"
+    "image": "/assets/images/minis/gargoyle.png",
+    "stats": {
+      "health": 70,
+      "damage": 50,
+      "speed": 10
+    }
   },
   {
     "id": "earth_and_moon",
@@ -522,7 +617,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/earth_and_moon.png"
+    "image": "/assets/images/minis/earth_and_moon.png",
+    "stats": {
+      "health": 90,
+      "damage": 60,
+      "speed": 5
+    }
   },
   {
     "id": "faerie_dragon",
@@ -548,7 +648,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/faerie_dragon.png"
+    "image": "/assets/images/minis/faerie_dragon.png",
+    "stats": {
+      "health": 60,
+      "damage": 40,
+      "speed": 25
+    }
   },
   {
     "id": "darkspear_troll",
@@ -574,7 +679,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/darkspear_troll.png"
+    "image": "/assets/images/minis/darkspear_troll.png",
+    "stats": {
+      "health": 55,
+      "damage": 35,
+      "speed": 20
+    }
   },
   {
     "id": "cenarius",
@@ -600,7 +710,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/cenarius.png"
+    "image": "/assets/images/minis/cenarius.png",
+    "stats": {
+      "health": 80,
+      "damage": 60,
+      "speed": 10
+    }
   },
   {
     "id": "malfurion",
@@ -626,7 +741,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/malfurion.png"
+    "image": "/assets/images/minis/malfurion.png",
+    "stats": {
+      "health": 75,
+      "damage": 55,
+      "speed": 15
+    }
   },
   {
     "id": "worgen",
@@ -652,7 +772,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/worgen.png"
+    "image": "/assets/images/minis/worgen.png",
+    "stats": {
+      "health": 60,
+      "damage": 40,
+      "speed": 20
+    }
   },
   {
     "id": "jaina_proudmoore",
@@ -678,7 +803,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/jaina_proudmoore.png"
+    "image": "/assets/images/minis/jaina_proudmoore.png",
+    "stats": {
+      "health": 65,
+      "damage": 45,
+      "speed": 15
+    }
   },
   {
     "id": "treant",
@@ -704,7 +834,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/treant.png"
+    "image": "/assets/images/minis/treant.png",
+    "stats": {
+      "health": 40,
+      "damage": 20,
+      "speed": 30
+    }
   },
   {
     "id": "smoke_bomb",
@@ -730,7 +865,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/smoke_bomb.png"
+    "image": "/assets/images/minis/smoke_bomb.png",
+    "stats": {
+      "health": 50,
+      "damage": 30,
+      "speed": 10
+    }
   },
   {
     "id": "arcane_blast",
@@ -756,7 +896,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/arcane_blast.png"
+    "image": "/assets/images/minis/arcane_blast.png",
+    "stats": {
+      "health": 45,
+      "damage": 25,
+      "speed": 15
+    }
   },
   {
     "id": "onu",
@@ -782,7 +927,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/onu.png"
+    "image": "/assets/images/minis/onu.png",
+    "stats": {
+      "health": 90,
+      "damage": 70,
+      "speed": 5
+    }
   },
   {
     "id": "harvest_golem",
@@ -808,7 +958,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/harvest_golem.png"
+    "image": "/assets/images/minis/harvest_golem.png",
+    "stats": {
+      "health": 60,
+      "damage": 40,
+      "speed": 15
+    }
   },
   {
     "id": "ysera",
@@ -834,7 +989,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/ysera.png"
+    "image": "/assets/images/minis/ysera.png",
+    "stats": {
+      "health": 75,
+      "damage": 55,
+      "speed": 10
+    }
   },
   {
     "id": "hogger",
@@ -860,7 +1020,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/hogger.png"
+    "image": "/assets/images/minis/hogger.png",
+    "stats": {
+      "health": 80,
+      "damage": 50,
+      "speed": 15
+    }
   },
   {
     "id": "dark_iron_miner",
@@ -886,7 +1051,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/dark_iron_miner.png"
+    "image": "/assets/images/minis/dark_iron_miner.png",
+    "stats": {
+      "health": 45,
+      "damage": 25,
+      "speed": 20
+    }
   },
   {
     "id": "warsong_grunts",
@@ -912,7 +1082,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/warsong_grunts.png"
+    "image": "/assets/images/minis/warsong_grunts.png",
+    "stats": {
+      "health": 70,
+      "damage": 50,
+      "speed": 10
+    }
   },
   {
     "id": "deep_breath",
@@ -938,7 +1113,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/deep_breath.png"
+    "image": "/assets/images/minis/deep_breath.png",
+    "stats": {
+      "health": 85,
+      "damage": 55,
+      "speed": 5
+    }
   },
   {
     "id": "mountaineer",
@@ -964,7 +1144,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/mountaineer.png"
+    "image": "/assets/images/minis/mountaineer.png",
+    "stats": {
+      "health": 75,
+      "damage": 55,
+      "speed": 10
+    }
   },
   {
     "id": "witch_doctor",
@@ -990,7 +1175,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/witch_doctor.png"
+    "image": "/assets/images/minis/witch_doctor.png",
+    "stats": {
+      "health": 50,
+      "damage": 30,
+      "speed": 20
+    }
   },
   {
     "id": "frostwolf_shaman",
@@ -1016,7 +1206,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/frostwolf_shaman.png"
+    "image": "/assets/images/minis/frostwolf_shaman.png",
+    "stats": {
+      "health": 70,
+      "damage": 50,
+      "speed": 15
+    }
   },
   {
     "id": "raptors",
@@ -1042,7 +1237,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/raptors.png"
+    "image": "/assets/images/minis/raptors.png",
+    "stats": {
+      "health": 55,
+      "damage": 35,
+      "speed": 25
+    }
   },
   {
     "id": "firehammer",
@@ -1068,7 +1268,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/firehammer.png"
+    "image": "/assets/images/minis/firehammer.png",
+    "stats": {
+      "health": 70,
+      "damage": 50,
+      "speed": 15
+    }
   },
   {
     "id": "anubarak",
@@ -1094,7 +1299,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/anubarak.png"
+    "image": "/assets/images/minis/anubarak.png",
+    "stats": {
+      "health": 80,
+      "damage": 50,
+      "speed": 10
+    }
   },
   {
     "id": "polymorph",
@@ -1120,7 +1330,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/polymorph.png"
+    "image": "/assets/images/minis/polymorph.png",
+    "stats": {
+      "health": 65,
+      "damage": 45,
+      "speed": 15
+    }
   },
   {
     "id": "ogre_mage",
@@ -1146,7 +1361,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/ogre_mage.png"
+    "image": "/assets/images/minis/ogre_mage.png",
+    "stats": {
+      "health": 75,
+      "damage": 55,
+      "speed": 10
+    }
   },
   {
     "id": "bog_beast",
@@ -1172,7 +1392,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/bog_beast.png"
+    "image": "/assets/images/minis/bog_beast.png",
+    "stats": {
+      "health": 60,
+      "damage": 40,
+      "speed": 15
+    }
   },
   {
     "id": "chain_lightning",
@@ -1198,7 +1423,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/chain_lightning.png"
+    "image": "/assets/images/minis/chain_lightning.png",
+    "stats": {
+      "health": 50,
+      "damage": 30,
+      "speed": 20
+    }
   },
   {
     "id": "sylvanas_windrunner",
@@ -1224,7 +1454,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/sylvanas_windrunner.png"
+    "image": "/assets/images/minis/sylvanas_windrunner.png",
+    "stats": {
+      "health": 90,
+      "damage": 70,
+      "speed": 5
+    }
   },
   {
     "id": "cheat_death",
@@ -1250,7 +1485,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/cheat_death.png"
+    "image": "/assets/images/minis/cheat_death.png",
+    "stats": {
+      "health": 65,
+      "damage": 45,
+      "speed": 15
+    }
   },
   {
     "id": "druid_of_the_claw",
@@ -1276,7 +1516,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/druid_of_the_claw.png"
+    "image": "/assets/images/minis/druid_of_the_claw.png",
+    "stats": {
+      "health": 75,
+      "damage": 55,
+      "speed": 10
+    }
   },
   {
     "id": "headless_horseman",
@@ -1302,7 +1547,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/headless_horseman.png"
+    "image": "/assets/images/minis/headless_horseman.png",
+    "stats": {
+      "health": 85,
+      "damage": 55,
+      "speed": 5
+    }
   },
   {
     "id": "pyromancer",
@@ -1328,7 +1578,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/pyromancer.png"
+    "image": "/assets/images/minis/pyromancer.png",
+    "stats": {
+      "health": 60,
+      "damage": 40,
+      "speed": 15
+    }
   },
   {
     "id": "gnoll_brute",
@@ -1354,7 +1609,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/gnoll_brute.png"
+    "image": "/assets/images/minis/gnoll_brute.png",
+    "stats": {
+      "health": 55,
+      "damage": 35,
+      "speed": 20
+    }
   },
   {
     "id": "general_drakkisath",
@@ -1380,7 +1640,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/general_drakkisath.png"
+    "image": "/assets/images/minis/general_drakkisath.png",
+    "stats": {
+      "health": 80,
+      "damage": 60,
+      "speed": 10
+    }
   },
   {
     "id": "rend_blackhand",
@@ -1406,7 +1671,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/rend_blackhand.png"
+    "image": "/assets/images/minis/rend_blackhand.png",
+    "stats": {
+      "health": 90,
+      "damage": 70,
+      "speed": 5
+    }
   },
   {
     "id": "blizzard",
@@ -1432,7 +1702,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/blizzard.png"
+    "image": "/assets/images/minis/blizzard.png",
+    "stats": {
+      "health": 70,
+      "damage": 50,
+      "speed": 15
+    }
   },
   {
     "id": "stonehoof_tauren",
@@ -1458,7 +1733,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/stonehoof_tauren.png"
+    "image": "/assets/images/minis/stonehoof_tauren.png",
+    "stats": {
+      "health": 75,
+      "damage": 55,
+      "speed": 10
+    }
   },
   {
     "id": "swole_troll",
@@ -1484,7 +1764,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/swole_troll.png"
+    "image": "/assets/images/minis/swole_troll.png",
+    "stats": {
+      "health": 70,
+      "damage": 50,
+      "speed": 15
+    }
   },
   {
     "id": "orgrim_doomhammer",
@@ -1510,7 +1795,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/orgrim_doomhammer.png"
+    "image": "/assets/images/minis/orgrim_doomhammer.png",
+    "stats": {
+      "health": 65,
+      "damage": 45,
+      "speed": 20
+    }
   },
   {
     "id": "bloodmage_thalnos",
@@ -1536,7 +1826,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/bloodmage_thalnos.png"
+    "image": "/assets/images/minis/bloodmage_thalnos.png",
+    "stats": {
+      "health": 75,
+      "damage": 55,
+      "speed": 10
+    }
   },
   {
     "id": "bat_rider",
@@ -1562,7 +1857,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/bat_rider.png"
+    "image": "/assets/images/minis/bat_rider.png",
+    "stats": {
+      "health": 50,
+      "damage": 30,
+      "speed": 20
+    }
   },
   {
     "id": "priestess",
@@ -1588,7 +1888,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/priestess.png"
+    "image": "/assets/images/minis/priestess.png",
+    "stats": {
+      "health": 45,
+      "damage": 25,
+      "speed": 15
+    }
   },
   {
     "id": "meat_wagon",
@@ -1614,7 +1919,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/meat_wagon.png"
+    "image": "/assets/images/minis/meat_wagon.png",
+    "stats": {
+      "health": 60,
+      "damage": 40,
+      "speed": 15
+    }
   },
   {
     "id": "skeleton_party",
@@ -1640,7 +1950,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/skeleton_party.png"
+    "image": "/assets/images/minis/skeleton_party.png",
+    "stats": {
+      "health": 70,
+      "damage": 50,
+      "speed": 10
+    }
   },
   {
     "id": "sneed",
@@ -1666,7 +1981,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/sneed.png"
+    "image": "/assets/images/minis/sneed.png",
+    "stats": {
+      "health": 80,
+      "damage": 60,
+      "speed": 10
+    }
   },
   {
     "id": "necromancer",
@@ -1692,7 +2012,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/necromancer.png"
+    "image": "/assets/images/minis/necromancer.png",
+    "stats": {
+      "health": 75,
+      "damage": 55,
+      "speed": 10
+    }
   },
   {
     "id": "angry_chickens",
@@ -1718,7 +2043,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/angry_chickens.png"
+    "image": "/assets/images/minis/angry_chickens.png",
+    "stats": {
+      "health": 45,
+      "damage": 25,
+      "speed": 20
+    }
   },
   {
     "id": "ragnaros",
@@ -1744,7 +2074,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/ragnaros.png"
+    "image": "/assets/images/minis/ragnaros.png",
+    "stats": {
+      "health": 85,
+      "damage": 55,
+      "speed": 5
+    }
   },
   {
     "id": "huntress",
@@ -1770,7 +2105,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/huntress.png"
+    "image": "/assets/images/minis/huntress.png",
+    "stats": {
+      "health": 75,
+      "damage": 55,
+      "speed": 10
+    }
   },
   {
     "id": "maiev_shadowsong",
@@ -1796,7 +2136,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/maiev_shadowsong.png"
+    "image": "/assets/images/minis/maiev_shadowsong.png",
+    "stats": {
+      "health": 90,
+      "damage": 70,
+      "speed": 5
+    }
   },
   {
     "id": "dryad",
@@ -1822,7 +2167,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/dryad.png"
+    "image": "/assets/images/minis/dryad.png",
+    "stats": {
+      "health": 70,
+      "damage": 50,
+      "speed": 15
+    }
   },
   {
     "id": "vultures",
@@ -1848,7 +2198,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/vultures.png"
+    "image": "/assets/images/minis/vultures.png",
+    "stats": {
+      "health": 40,
+      "damage": 20,
+      "speed": 30
+    }
   },
   {
     "id": "execute",
@@ -1874,7 +2229,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/execute.png"
+    "image": "/assets/images/minis/execute.png",
+    "stats": {
+      "health": 65,
+      "damage": 45,
+      "speed": 15
+    }
   },
   {
     "id": "kobold_miner",
@@ -1900,7 +2260,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/kobold_miner.png"
+    "image": "/assets/images/minis/kobold_miner.png",
+    "stats": {
+      "health": 40,
+      "damage": 20,
+      "speed": 30
+    }
   },
   {
     "id": "old_murk_eye",
@@ -1926,7 +2291,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/old_murk_eye.png"
+    "image": "/assets/images/minis/old_murk_eye.png",
+    "stats": {
+      "health": 80,
+      "damage": 50,
+      "speed": 10
+    }
   },
   {
     "id": "core_hounds",
@@ -1952,7 +2322,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/core_hounds.png"
+    "image": "/assets/images/minis/core_hounds.png",
+    "stats": {
+      "health": 90,
+      "damage": 70,
+      "speed": 5
+    }
   },
   {
     "id": "tirion_fordring",
@@ -1978,7 +2353,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/tirion_fordring.png"
+    "image": "/assets/images/minis/tirion_fordring.png",
+    "stats": {
+      "health": 75,
+      "damage": 55,
+      "speed": 10
+    }
   },
   {
     "id": "footmen",
@@ -2004,7 +2384,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/footmen.png"
+    "image": "/assets/images/minis/footmen.png",
+    "stats": {
+      "health": 70,
+      "damage": 50,
+      "speed": 10
+    }
   },
   {
     "id": "banshee",
@@ -2030,7 +2415,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/banshee.png"
+    "image": "/assets/images/minis/banshee.png",
+    "stats": {
+      "health": 75,
+      "damage": 55,
+      "speed": 10
+    }
   },
   {
     "id": "drake",
@@ -2056,7 +2446,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/drake.png"
+    "image": "/assets/images/minis/drake.png",
+    "stats": {
+      "health": 70,
+      "damage": 50,
+      "speed": 15
+    }
   },
   {
     "id": "ancient_of_war",
@@ -2082,7 +2477,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/ancient_of_war.png"
+    "image": "/assets/images/minis/ancient_of_war.png",
+    "stats": {
+      "health": 100,
+      "damage": 80,
+      "speed": 5
+    }
   },
   {
     "id": "earth_elemental",
@@ -2108,7 +2508,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/earth_elemental.png"
+    "image": "/assets/images/minis/earth_elemental.png",
+    "stats": {
+      "health": 60,
+      "damage": 40,
+      "speed": 15
+    }
   },
   {
     "id": "eclipse",
@@ -2134,7 +2539,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/eclipse.png"
+    "image": "/assets/images/minis/eclipse.png",
+    "stats": {
+      "health": 65,
+      "damage": 45,
+      "speed": 15
+    }
   },
   {
     "id": "goblin_sapper",
@@ -2160,7 +2570,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/goblin_sapper.png"
+    "image": "/assets/images/minis/goblin_sapper.png",
+    "stats": {
+      "health": 50,
+      "damage": 30,
+      "speed": 20
+    }
   },
   {
     "id": "defias_bandits",
@@ -2186,7 +2601,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/defias_bandits.png"
+    "image": "/assets/images/minis/defias_bandits.png",
+    "stats": {
+      "health": 40,
+      "damage": 20,
+      "speed": 30
+    }
   },
   {
     "id": "ghoul",
@@ -2212,7 +2632,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/ghoul.png"
+    "image": "/assets/images/minis/ghoul.png",
+    "stats": {
+      "health": 45,
+      "damage": 25,
+      "speed": 20
+    }
   },
   {
     "id": "fire_elemental",
@@ -2238,7 +2663,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/fire_elemental.png"
+    "image": "/assets/images/minis/fire_elemental.png",
+    "stats": {
+      "health": 70,
+      "damage": 50,
+      "speed": 10
+    }
   },
   {
     "id": "gryphon_rider",
@@ -2264,7 +2694,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/gryphon_rider.png"
+    "image": "/assets/images/minis/gryphon_rider.png",
+    "stats": {
+      "health": 50,
+      "damage": 30,
+      "speed": 20
+    }
   },
   {
     "id": "living_bomb",
@@ -2290,7 +2725,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/living_bomb.png"
+    "image": "/assets/images/minis/living_bomb.png",
+    "stats": {
+      "health": 85,
+      "damage": 55,
+      "speed": 5
+    }
   },
   {
     "id": "abomination",
@@ -2316,7 +2756,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/abomination.png"
+    "image": "/assets/images/minis/abomination.png",
+    "stats": {
+      "health": 90,
+      "damage": 70,
+      "speed": 5
+    }
   },
   {
     "id": "emperor_thaurissan",
@@ -2342,7 +2787,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/emperor_thaurissan.png"
+    "image": "/assets/images/minis/emperor_thaurissan.png",
+    "stats": {
+      "health": 75,
+      "damage": 55,
+      "speed": 10
+    }
   },
   {
     "id": "plague_farmer",
@@ -2368,7 +2818,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/plague_farmer.png"
+    "image": "/assets/images/minis/plague_farmer.png",
+    "stats": {
+      "health": 50,
+      "damage": 30,
+      "speed": 20
+    }
   },
   {
     "id": "flamewaker",
@@ -2394,7 +2849,12 @@ export const minisData: Mini[] = [
     "strongAgainst": [],
     "weakAgainst": [],
     "synergies": [],
-    "image": "/assets/images/minis/flamewaker.png"
+    "image": "/assets/images/minis/flamewaker.png",
+    "stats": {
+      "health": 70,
+      "damage": 50,
+      "speed": 10
+    }
   }
 ];
 
